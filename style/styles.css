@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/background.jpg);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: solid 2px lightslategray;
+    border-radius: 1%;
+}
+
+
+h1 {
+    color: black;
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    font-style: oblique;
+    margin: 0 !important;
+    text-align: center;
+    padding: 1em;
+}
+
+ul {
+    color: #e89f14;
+    font-size: large;
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    padding: 3em;
+    text-align: center;
+    text-shadow: 0.5px 0.5px rgb(95, 87, 66);
+}
