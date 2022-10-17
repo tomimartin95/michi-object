@@ -8,6 +8,12 @@ body {
     background-image: url(./img/background.jpg);
 }
 
+footer {
+    padding-top: 3em;
+    font-size: medium;
+    font-weight: bold;
+}
+
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -24,6 +30,7 @@ h1 {
     margin: 0 !important;
     text-align: center;
     padding: 1em;
+    text-shadow: 1px 1px lightgray;
 }
 
 ul {
