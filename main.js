@@ -18,3 +18,4 @@ console.log(china);
 
 //En el HTML
 document.querySelector("ul").innerHTML = `Nombre: ${china.nombre} </br> Dueña: ${china.dueña} </br> Raza: ${china.raza} </br> Edad: ${china.edad} </br> Actividades: ${china.actividades} </br> Comida: ${china.comida} </br> Visita al veterinario: ${china.veterinario} </br> Vacunas: ${china.vacunas}`;
+

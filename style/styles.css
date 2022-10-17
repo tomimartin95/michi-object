@@ -2,29 +2,35 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-}
-
-#img-gato {
-    width: 40vw;
-    margin-top: 3em;
-    border: solid 5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/background.jpg);
 }
 
 .contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: fit-content;
+    border: solid 2px lightslategray;
+    border-radius: 1%;
 }
 
+
 h1 {
-    color: white;
+    color: black;
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    font-style: oblique;
+    margin: 0 !important;
     text-align: center;
+    padding: 1em;
 }
 
 ul {
-    color: rgb(201, 169, 113);
+    color: #e89f14;
     font-size: large;
-    font-family: sans-serif;
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    padding: 3em;
+    text-align: center;
+    text-shadow: 0.5px 0.5px rgb(95, 87, 66);
 }
